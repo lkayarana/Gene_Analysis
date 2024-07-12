@@ -1,0 +1,15 @@
+Pathway ID: KEGG:04668, Pathway Name: TNF signaling pathway
+Pathway ID: KEGG:05164, Pathway Name: Influenza A
+Pathway ID: KEGG:04657, Pathway Name: IL-17 signaling pathway
+Pathway ID: KEGG:04064, Pathway Name: NF-kappa B signaling pathway
+Pathway ID: KEGG:05169, Pathway Name: Epstein-Barr virus infection
+Pathway ID: KEGG:05417, Pathway Name: Lipid and atherosclerosis
+Pathway ID: KEGG:05146, Pathway Name: Amoebiasis
+Pathway ID: KEGG:04060, Pathway Name: Cytokine-cytokine receptor interaction
+Pathway ID: KEGG:05167, Pathway Name: Kaposi sarcoma-associated herpesvirus infection
+Pathway ID: KEGG:05161, Pathway Name: Hepatitis B
+Pathway ID: KEGG:05219, Pathway Name: Bladder cancer
+Pathway ID: KEGG:05162, Pathway Name: Measles
+Pathway ID: KEGG:05418, Pathway Name: Fluid shear stress and atherosclerosis
+Pathway ID: KEGG:04210, Pathway Name: Apoptosis
+Pathway ID: KEGG:04936, Pathway Name: Alcoholic liver disease

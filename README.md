@@ -2,29 +2,6 @@
 
 Bu proje, Sars-CoV-2 enfekte ve kontrol grupları arasındaki genetik ve biyolojik farklılıkları transkripsiyon verilerini kullanarak belirlemek amacıyla oluşturulmuştur.
 
-## Proje Yapısı
-
-Gene_Analysis/
-│
-├── data/ # Veri dosyaları
-│ ├── gene_expression.tsv
-│ └── converter.tsv.tsv
-├── results/ # Analiz sonuçları
-│ ├── filtered_gene_expression.tsv
-│ ├── significant_genes.tsv
-│ ├── enrichment_results.tsv
-│ ├── converted_significant_genes.tsv
-│ ├── kegg_pathways.txt
-│ └── kegg_pathway.json
-├── scripts/ # Python script dosyaları
-│ ├── filter_genes.py
-│ ├── differential_expression_analysis.py
-│ ├── enrichment_analysis.py
-│ ├── convert_gene_ids.py
-│ ├── save_kegg_pathways.py
-│ └── pathway_analysis.py
-└── README.md 
-
 # Proje açıklamaları ve kurulum adımları
 
 ## Gereksinimler
@@ -102,8 +79,6 @@ Bu adımda, KEGG Pathway ile ilişkili sinyal yollarını listeledim ve pathway 
 
 ### 6. Sonuçların Yorumlanması
 
-Elde edilen sonuçların yorumlanması ve ilgili soruların yanıtlanması:
-
 SARS-CoV-2 enfekte ve kontrol grupları arasındaki genetik ve biyolojik farklılıkları belirlemek amacıyla yapılan bu analiz, enfeksiyonun hücresel düzeyde çeşitli biyolojik süreçleri ve sinyal yollarını nasıl etkilediğini ortaya koymaktadır. Elde edilen sonuçlar, SARS-CoV-2 enfeksiyonunun hücrelerde ciddi biyolojik değişikliklere yol açtığını göstermektedir. Aşağıda, genel olarak elde edilen sonuçların yorumlanması yer almaktadır:
 
 1. **Anlamlı Değişen Genler**
@@ -141,7 +116,9 @@ Bu pathway'ler, viral enfeksiyon mekanizmalarıyla ilgilidir ve SARS-CoV-2 enfek
 Bu pathway'ler, enfeksiyon sonrası hücrelerin metabolik süreçlerinin ve hücresel stres tepkilerinin etkilendiğini göstermektedir. Özellikle lipid metabolizması ve hücre ölümü (apoptoz) gibi süreçlerdeki değişiklikler, enfeksiyonun hücresel homeostaz üzerinde nasıl etkili olduğunu göstermektedir.
 
 6. **Hücre Büyümesi ve Kanser**
+   
 *Bladder cancer (KEGG:05219)*
+
 Bu pathway, SARS-CoV-2 enfeksiyonunun hücre büyümesi ve kanserle ilişkili biyolojik süreçleri nasıl etkileyebileceğine dair ipuçları sunmaktadır. Enfeksiyonun, hücre proliferasyonunu ve kanser gelişimini etkileyebileceği göz önünde bulundurulmalıdır.
 
 Analiz sonuçları, SARS-CoV-2 enfeksiyonunun hücrelerde geniş kapsamlı biyolojik değişikliklere neden olduğunu göstermektedir. Bu değişiklikler, enfeksiyonun bağışıklık yanıtı, inflamasyon, viral enfeksiyon mekanizmaları, metabolik süreçler ve hücre büyümesi üzerinde önemli etkiler yapabileceğini göstermektedir. Bu bulgular, SARS-CoV-2'nin patogenezini anlamak ve enfeksiyonun hücresel etkilerini daha iyi kavramak için önemli bilgiler sunmaktadır.
@@ -153,6 +130,7 @@ Anlamlı değişim gösteren genler ve pathway'ler, hastalığın seyrini ve ted
 Gelecek Araştırmalar: Elde edilen sonuçlar, SARS-CoV-2 enfeksiyonunun hücresel etkilerini daha derinlemesine incelemek için ileri araştırmalar için bir temel oluşturabilir.
 
 1. **Herhangi bir disease veya viral enfeksiyon ile ilgili bir terim elde ettiniz mi?**
+   
 Evet, analiz sonucunda elde edilen pathway'ler arasında çeşitli hastalıklar ve viral enfeksiyonlarla ilişkili olanlar bulunmaktadır:
     - Influenza A (KEGG:05164)
     - Epstein-Barr virus infection (KEGG:05169)
@@ -161,14 +139,14 @@ Evet, analiz sonucunda elde edilen pathway'ler arasında çeşitli hastalıklar 
     - Measles (KEGG:05162)
     - Bladder cancer (KEGG:05219)
 
-2. **Enfeksiyon sonrası hücrelerin metabolik süreçleri etkilenmiş mi?**
+3. **Enfeksiyon sonrası hücrelerin metabolik süreçleri etkilenmiş mi?**
+   
 Evet, enfeksiyon sonrası hücrelerin metabolik süreçlerinin etkilendiğini gösteren pathway'ler de bulunmaktadır:
     - Lipid and atherosclerosis (KEGG:05417)
     - Fluid shear stress and atherosclerosis (KEGG:05418)
     - Alcoholic liver disease (KEGG:04936)
 
-3. **P-value sınır değerini arttırmak veya azaltmak sonuçlarınızı nasıl değiştirebilirdi?**
+5. **P-value sınır değerini arttırmak veya azaltmak sonuçlarınızı nasıl değiştirebilirdi?**
 P-value sınır değerini değiştirmek, anlamlı değişim gösteren genlerin ve buna bağlı olarak zenginleştirilmiş pathway'lerin sayısını ve türünü etkileyebilir. Daha düşük bir p-value sınır değeri, daha katı bir anlamlılık kriteri sunarak daha güvenilir sonuçlar elde etmeye yardımcı olabilir, ancak bazı anlamlı değişiklikleri kaçırma riski taşır. Daha yüksek bir p-value sınır değeri ise daha fazla gen ve pathway belirleyerek daha geniş kapsamlı bir analiz sunabilir, ancak yanlış pozitiflerin sayısını arttırabilir.
 
-**Genel Değerlendirme:**
 Analiz sonuçları, SARS-CoV-2 enfeksiyonunun hücrelerde geniş kapsamlı biyolojik değişikliklere neden olduğunu göstermektedir. Bu değişiklikler, enfeksiyonun bağışıklık yanıtı, inflamasyon, viral enfeksiyon mekanizmaları, metabolik süreçler ve hücre büyümesi üzerinde önemli etkiler yapabileceğini göstermektedir. Bu bulgular, SARS-CoV-2'nin patogenezini anlamak ve enfeksiyonun hücresel etkilerini daha iyi kavramak için önemli bilgiler sunmaktadır.

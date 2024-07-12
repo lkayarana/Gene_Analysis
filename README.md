@@ -106,13 +106,13 @@ Elde edilen sonuçların yorumlanması ve ilgili soruların yanıtlanması:
 
 SARS-CoV-2 enfekte ve kontrol grupları arasındaki genetik ve biyolojik farklılıkları belirlemek amacıyla yapılan bu analiz, enfeksiyonun hücresel düzeyde çeşitli biyolojik süreçleri ve sinyal yollarını nasıl etkilediğini ortaya koymaktadır. Elde edilen sonuçlar, SARS-CoV-2 enfeksiyonunun hücrelerde ciddi biyolojik değişikliklere yol açtığını göstermektedir. Aşağıda, genel olarak elde edilen sonuçların yorumlanması yer almaktadır:
 
-1. **Anlamlı Değişen Genler
+1. **Anlamlı Değişen Genler**
 Analiz sonucunda, SARS-CoV-2 enfeksiyonuna maruz kalmış hücrelerde ifade düzeyleri anlamlı şekilde değişen birçok gen belirlenmiştir. Bu genler, enfeksiyonun hücresel yanıtı üzerinde önemli roller oynayabilir.
 
-2. **Enrichment Analizi
+2. **Enrichment Analizi**
 Anlamlı değişen genlerin zenginleştirme analizi, belirli biyolojik süreçlerin ve sinyal yollarının enfeksiyondan etkilendiğini göstermektedir. Özellikle aşağıdaki alanlar dikkat çekicidir:
 
-3. **Bağışıklık Yanıtı ve İnflamasyon
+3. **Bağışıklık Yanıtı ve İnflamasyon**
 
    - TNF signaling pathway (KEGG:04668)
    - IL-17 signaling pathway (KEGG:04657)
@@ -121,7 +121,7 @@ Anlamlı değişen genlerin zenginleştirme analizi, belirli biyolojik süreçle
 
 Bu pathway'ler, enfeksiyon sırasında aktif hale gelen bağışıklık yanıtları ve inflamatuar süreçlerle ilgilidir. SARS-CoV-2 enfeksiyonu, hücrelerin inflamatuar yanıtlarını tetikleyebilir ve bu da hastalığın şiddetini etkileyebilir.
 
-4. **Viral Enfeksiyon Mekanizmaları
+4. **Viral Enfeksiyon Mekanizmaları**
 
    - Influenza A (KEGG:05164)
    - Epstein-Barr virus infection (KEGG:05169)
@@ -131,7 +131,7 @@ Bu pathway'ler, enfeksiyon sırasında aktif hale gelen bağışıklık yanıtla
 
 Bu pathway'ler, viral enfeksiyon mekanizmalarıyla ilgilidir ve SARS-CoV-2 enfeksiyonunun, diğer viral enfeksiyonlarla ortak biyolojik süreçleri etkilediğini göstermektedir. Bu, SARS-CoV-2'nin hücreleri enfekte etme ve yayılma yolları hakkında önemli ipuçları sağlayabilir.
 
-5. **Metabolik Süreçler ve Hücresel Stres
+5. **Metabolik Süreçler ve Hücresel Stres**
 
    - Lipid and atherosclerosis (KEGG:05417)
    - Fluid shear stress and atherosclerosis (KEGG:05418)
@@ -140,8 +140,8 @@ Bu pathway'ler, viral enfeksiyon mekanizmalarıyla ilgilidir ve SARS-CoV-2 enfek
    - 
 Bu pathway'ler, enfeksiyon sonrası hücrelerin metabolik süreçlerinin ve hücresel stres tepkilerinin etkilendiğini göstermektedir. Özellikle lipid metabolizması ve hücre ölümü (apoptoz) gibi süreçlerdeki değişiklikler, enfeksiyonun hücresel homeostaz üzerinde nasıl etkili olduğunu göstermektedir.
 
-6. **Hücre Büyümesi ve Kanser
-*Bladder cancer (KEGG:05219)
+6. **Hücre Büyümesi ve Kanser**
+*Bladder cancer (KEGG:05219)*
 Bu pathway, SARS-CoV-2 enfeksiyonunun hücre büyümesi ve kanserle ilişkili biyolojik süreçleri nasıl etkileyebileceğine dair ipuçları sunmaktadır. Enfeksiyonun, hücre proliferasyonunu ve kanser gelişimini etkileyebileceği göz önünde bulundurulmalıdır.
 
 Analiz sonuçları, SARS-CoV-2 enfeksiyonunun hücrelerde geniş kapsamlı biyolojik değişikliklere neden olduğunu göstermektedir. Bu değişiklikler, enfeksiyonun bağışıklık yanıtı, inflamasyon, viral enfeksiyon mekanizmaları, metabolik süreçler ve hücre büyümesi üzerinde önemli etkiler yapabileceğini göstermektedir. Bu bulgular, SARS-CoV-2'nin patogenezini anlamak ve enfeksiyonun hücresel etkilerini daha iyi kavramak için önemli bilgiler sunmaktadır.

@@ -61,6 +61,8 @@ Anlamlı değişmiş gen listesine gProfiler kullanarak enrichment analizi uygul
 
 Bu adımda, gProfiler kullanarak anlamlı genlerin zenginleştirme analizini yaptım ve sonuçları `results/enrichment_results.tsv` dosyasına kaydettim.
 
+https://biit.cs.ut.ee/gplink/l/Q5tYqMNsTE adresinden detaylı incelenebilir.
+
 ### 4. Gen ID Dönüşümü
 
 Anlamlı değişen genlerin Ensembl ID'lerini Entrez ID'lere dönüştürdüm.

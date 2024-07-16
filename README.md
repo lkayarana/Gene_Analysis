@@ -63,6 +63,10 @@ Bu adımda, gProfiler kullanarak anlamlı genlerin zenginleştirme analizini yap
 
 https://biit.cs.ut.ee/gplink/l/Q5tYqMNsTE adresinden detaylı incelenebilir.
 
+![image](https://github.com/user-attachments/assets/fb60c0e4-a5a3-44fa-921b-36b38670b51c)
+
+
+
 ### 4. Gen ID Dönüşümü
 
 Anlamlı değişen genlerin Ensembl ID'lerini Entrez ID'lere dönüştürdüm.
